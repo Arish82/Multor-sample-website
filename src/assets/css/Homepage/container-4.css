@@ -1,0 +1,17 @@
+.container-4{
+    background-color: var(--secondary);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5em;
+    padding-bottom: 3em;
+    align-items: flex-end;
+}
+.container-4 > div{
+    font-size: 3em;
+    width: 30%;
+    line-height: 1;
+}
+.container-4 >p{
+    font-weight: lighter;
+}

@@ -1,0 +1,128 @@
+.container-2{
+    padding: 7em 0em 10em 0em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.content-left{
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.card{
+    display: flex;
+    margin-bottom: 2em;
+}
+.card >i{
+    width: 20%;
+    font-size: 3em;
+    color: var(--primary);
+    display: flex;
+    justify-content: center;
+}
+.text-content{
+    width: 80%;
+}
+.text-content > .title{
+    font-size: 1.4em;
+    padding-top: 0.2em;
+    font-weight: bold;
+}
+.text-content > .subtitle{
+    padding-top: 1em;
+    color: grey;
+
+}
+
+.content-right-container-2{
+    width: 40%;
+    position: relative;
+}
+.appointment-form{
+    position: absolute;
+    bottom: -20%;
+    background-color: var(--secondary);
+    color: white;
+    padding: 2.2em 3.8em 4em 3.8em;
+}
+.appointment-form > h1{
+    text-align: center;
+    padding: 0em 1em;
+}
+.appointment-form > p{
+    text-align: center;
+    padding: 1em 0em;
+    line-height: 1.4;
+}
+.appointment-form > div{
+    color: white;
+}
+.appointment-form-field{
+    color: white !important;
+    
+}
+.form-field{
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    font-size: 1em;
+}
+.form-field:focus{
+    outline: none;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+@media (min-width: 720px) and (max-width: 1320px) {
+    body{
+        font-size: 14px;
+    }
+    .content{
+        width: 90%;
+    }
+    .content-left{
+        width: 45%;
+    }
+    .content-right-container-2{
+        width: 50%;
+    }
+    .appointment-form{
+        padding: 2.2em 3.8em 4em 3.8em;
+    }
+}
+@media (max-width: 720px) {
+    body{
+        font-size: 12px;
+    }
+    .container-2{
+        padding: 0;
+        margin-bottom: 2em;
+    }
+    .content{
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .content-left{
+        width: 80%;
+        margin: auto;
+    }
+    .content-right-container-2{
+        margin: auto;
+        width: 80%;
+    }
+    .appointment-form{
+        position: relative;
+        top: -8em;
+    }
+}
