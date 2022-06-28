@@ -1,3 +1,9 @@
+# View Deployment
+  https://csb-xtslhn.vercel.app/
+  
+# Website Preview
+  ![alt text](https://github.com/Arish82/Multor-sample-website/blob/main/public/multor-1.png?raw=true)
+  ![alt text](https://github.com/Arish82/Multor-sample-website/blob/main/public/multor-2.png?raw=true)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
